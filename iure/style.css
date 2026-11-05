@@ -1,0 +1,84 @@
+/*configuracoes padroesda pagina */
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: color #f8f9fa;;
+    /*fundo cinza bem claro*/ 
+    color: #333;
+}
+/*estilo do topo do curriculo*/
+.cabecalho{
+    background-color: #212529;
+    /*grafite escuro profissional*/
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+.foto-perfil{
+    font-size: 4rem;
+    background-color: #495057;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    /*fas o qudrado virar um circulo*/
+    margin:0 auto 15px auto;
+}
+.cabesalho h1{
+    margin: 0 0 10px 0;
+}
+.cargo{
+    font-size: 1.2rem;
+    color: #adb5db;
+    margin: 0 ;
+}
+/* organização do conteudo central*/
+.container{
+    max-width: 700px;
+    margin:30px auto;
+    padding: 0 15px;
+}
+/*estilo pracada bloco de informação */
+.bloco {
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+
+}
+.bloco h2{
+    margin: 0;
+    border-bottom: 2px solid #212529;
+    /*linha de baixo do titulo*/
+    padding-bottom: 5px;
+    font-size: 1.3rem;
+}
+/*Estilo para as caixinhas de habilidade */
+.tegs {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.tag {
+    background-color: #e9ecef;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+/*espacamento da experiencia*/
+.item-experiencia{
+    margin-top: 15px;
+}
+.itemexperiencia  h3{
+    margin: 0 0 5px 0;
+}
+.subtitulo{
+    color: #6c757d;
+    font-size: 0.9rem ;
+    margin: 0 0 10px 0;
+}
+/*melhora a fonte e o espacamento geral da pagina*/
+    body{
+        font-family: -apple-system, blinkmac;
+    }

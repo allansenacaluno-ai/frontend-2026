@@ -1,0 +1,63 @@
+.quadrado {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: 150px;
+    background-color: rgba(100, 148, 237, 0.534);
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    background-image: url("imagem.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.painel {
+    width: 800px;
+    max-width: 95%;
+    border: 1px solid gray;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.562);
+}
+
+.jogo {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td {
+    border: 4px solid rgb(236, 236, 236);
+    border-radius: 30px;
+}
+.botao{
+    background-color: chocolate;
+    font-size: 20px;
+    color: white;
+    margin: 40px;
+    padding: 10px;
+    border-radius:  10px;
+}
+.botao:hover{
+    background-color: black;
+    color: white;
+}
+ @media(max-width: 768px ){
+    .quadrado{
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+    }
+    body{ 
+        background-size: auto;
+        margin-top: 100px;
+    }
+ } 

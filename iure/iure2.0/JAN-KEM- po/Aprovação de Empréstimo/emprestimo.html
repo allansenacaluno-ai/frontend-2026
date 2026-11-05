@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprovação de Empréstimo</title>
+</head>
+<body>
+    <h1>Sistema de Aprovação de Empréstimo</h1>
+
+    <p>
+        <label>Idade-⏳:
+            <input type="number" id="idade" min="0">
+        </label>
+    </p>
+    <p>
+        <label>Remda mensal 💵:
+            <input type="number" id="renda" min="0" step="0.01">
+        </label>
+    </p>
+    <p>
+        <label> score-credito🚀:
+            <input type="number" id="score" min="0">
+        </label>
+    </p>
+    <p>
+        <label>
+            <input type="checkbox" id="restricao">
+            Possui restrição no nome (nome bixado🔒)
+        </label>
+    </p>
+
+    <button onclick="analisarEmprestimo()">Ver emprestimo</button>
+
+    <h2 id="resultado"></h2>
+
+    <script src="emprestimo.js"></script>
+</body>
+</html>

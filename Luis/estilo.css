@@ -1,0 +1,104 @@
+body {
+    /*corde de fundo*/
+    background-color: rgba(254, 255, 254, 0);
+/*alterar fonte*/
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/*tamanho dafonte*/
+font-size: 20px;
+/*alinhar no centro*/ 
+text-align: center;
+/*cor da letra*/
+color: rgb(21, 22, 22);
+}
+img{
+    border-radius: 15px;
+ /*largura */
+ width: 150px ;
+ /*altuara*/ 
+ /* colocar borda*/
+ border: 5px solid gray ;
+/*colocar sombra*/
+box-shadow: 2px 2px 5px black;
+width: 300px;
+
+}
+label {
+    /*deixar a etiqueta do campo ocupado largura*/ 
+    display: block;
+    font-weight: bold;
+/*margem*/
+margin-top: 15px;
+}
+input{ 
+    border-radius: 5px;
+    /*altura*/ 
+    height: 25px ;
+    /*lagura*/
+    width: 30vw;
+    text-align:center; 
+    color: blank;
+}
+input:focus{
+    outline: none;
+}
+out::placeholder{
+    color: gray;
+
+}
+#cadastra{
+    /*cor de fundo*/
+    background-color: darkblue;
+    /*cor da letra*/
+    color: white;
+    /*espacamento externo*/
+    margin: 50px;
+    /*espaçamento interno*/
+    padding: 10px;
+    border:none;
+
+    /*arredondar*/
+    border-radius: 10px;
+
+}
+button:hover{
+    background-color: black;
+    transition: 1s;
+    rotate: calc(360deg);
+}
+#id1{
+    background-color: red;
+}
+#id2{
+    background-color: green;
+}
+.classe1{
+    background-color: blue;
+}
+.classe2{
+    background-color: chartreuse;
+}
+.classe3{
+    background-color: deepskyblue;
+}
+.tabela{
+    background-color: blue;
+    color: black;
+     border-color: black;
+     margin: auto;
+
+}
+ul{
+width: 130px;
+/*centralizar*/
+}
+*{
+margin:auto;}
+.cartao{ 
+    background-color: rgb(192, 14, 14);
+    max-width: 700px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+} 
+
+
